@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <h1>Hello</h1>
+      <h1>GitHub Licenses Simplified</h1>
     </main>
   )
 }
