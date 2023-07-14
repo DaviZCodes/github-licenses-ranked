@@ -10,7 +10,7 @@ You are unsure whether to make your project open-source or not. You want people 
 ## Rest assured. I am here to help you. 
 With "Coding Licenses Simplified", you can :
 
-- Filter through less strict to more strict licenses </li>
+- Filter through less restrictive to more restrictive licenses </li>
 - Learn more about each license, and find the perfect license - or no license - for your repository. </li> 
 
   
