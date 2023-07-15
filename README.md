@@ -21,3 +21,6 @@ In fact, this repository is built on an MIT license - if you don't know what an 
   <li> Contributors are welcome </li>
   <li> Feel free to fork and work on this repository. </li>
 </ul>
+
+### My research Doc:
+https://docs.google.com/document/d/1-iByvxa3zH74qIAm-iySY7CW7f-Qz2qRhf7noo-ADEw/edit?usp=sharing
