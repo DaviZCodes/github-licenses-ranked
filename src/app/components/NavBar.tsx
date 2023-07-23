@@ -7,7 +7,7 @@ export default function NavBar() {
     <div className="flex items-center">
       <Link className="flex mb-6" href="/">
         <Image src={logo} width={150} height={150} alt="logo"></Image>
-        <h1 className="text-3xl font-semibold text-blue-[550]">
+        <h1 className="text-3xl font-semibold text-color-[#2a62db]">
           GitHub Licenses Simplified
         </h1>
       </Link>
