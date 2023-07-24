@@ -13,7 +13,7 @@ export default function NavBar() {
       </Link>
       <div className="flex ml-auto items-center">
         <Link
-          className="text-stone-600 underline text-base"
+          className="text-stone-600 hover:underline text-base"
           href="/definitions"
         >
           Definitions

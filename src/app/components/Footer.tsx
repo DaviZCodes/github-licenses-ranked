@@ -10,7 +10,7 @@ export default function Footer() {
       >
         <BsGithub size={50} color="#376cde" />
       </a>
-      <p>
+      <p className="text-sm">
         For fellow developers, by&nbsp;
         <a
           className="underline text-custom-blue"
@@ -20,7 +20,7 @@ export default function Footer() {
           DaviZCodes
         </a>
       </p>
-      <p>
+      <p className="text-sm">
         If you're interested in adding more features, please raise a pull
         request
       </p>
