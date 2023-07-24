@@ -3,11 +3,26 @@ import { BsGithub } from "react-icons/bs";
 
 export default function Footer() {
   return (
-    <div className="flex justify-center gap-5">
-      <BsGithub size={50} color="#2a62db" />
+    <div className="flex flex-col items-center justify-center gap-5 py-6 mt-1">
+      <a
+        href="https://github.com/DaviZCodes/github-licenses-ranked"
+        target="_blank"
+      >
+        <BsGithub size={50} color="#376cde" />
+      </a>
       <p>
-        Developed by
-        <Link href="https://github.com/DaviZCodes"> DaviZCodes</Link>
+        For fellow developers, by&nbsp;
+        <a
+          className="underline text-custom-blue"
+          href="https://github.com/DaviZCodes"
+          target="_blank"
+        >
+          DaviZCodes
+        </a>
+      </p>
+      <p>
+        If you're interested in adding more features, please raise a pull
+        request
       </p>
     </div>
   );
