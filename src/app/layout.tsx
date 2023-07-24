@@ -7,8 +7,8 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Licenses Made Easy",
-  description: "Github Licenses Simplified.",
+  title: "GitHub Licenses",
+  description: "Github Licenses Ranked & Simplified.",
 };
 
 export default function RootLayout({
