@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { BsGithub } from "react-icons/bs";
 
 export default function Footer() {
@@ -22,7 +21,7 @@ export default function Footer() {
       </p>
       <p className="text-sm">
         If you're interested in adding more features, please raise a pull
-        request
+        request.
       </p>
     </div>
   );

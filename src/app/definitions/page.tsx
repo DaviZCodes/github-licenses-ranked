@@ -1,9 +1,7 @@
-import NavBar from "../components/NavBar";
-
 export default function Definitions() {
   return (
     <div>
-      <h1 className="text-3xl mb-6">Definitions</h1>
+      <h1 className="text-3xl mb-6 font-semibold">Relevant Terms</h1>
       <div>
         <h2 className="font-bold">Use or Private Use?</h2>
         <p>
