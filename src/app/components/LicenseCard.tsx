@@ -1,3 +1,3 @@
 export default function LicenseCard() {
-  return <div>Card</div>;
+  return <div className="border bg-custom-blue">Card</div>;
 }
