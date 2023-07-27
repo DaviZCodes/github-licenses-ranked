@@ -5,7 +5,7 @@ interface SortDropdownProps {
 }
 
 const SortDropdown: React.FC<SortDropdownProps> = ({ onSortChange }) => {
-  const [selectedOption, setSelectedOption] = useState("popularity");
+  const [selectedOption, setSelectedOption] = useState("Strictness");
 
   const handleSortChange = (event: { target: { value: any } }) => {
     const selectedValue = event.target.value;
@@ -15,14 +15,14 @@ const SortDropdown: React.FC<SortDropdownProps> = ({ onSortChange }) => {
 
   return (
     <div>
-      <label htmlFor="sortDropdown">Sort By:</label>
+      <label htmlFor="sortDropdown">Sort By: </label>
       <select
         id="sortDropdown"
         value={selectedOption}
         onChange={handleSortChange}
       >
-        <option value="popularity">Popularity</option>
         <option value="strictness">Strictness</option>
+        <option value="popularity">Popularity</option>
       </select>
     </div>
   );

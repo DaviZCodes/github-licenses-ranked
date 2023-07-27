@@ -6,10 +6,24 @@ const licensesObj = {
   "The Unlicense": "/the-unlicense",
 };
 
+const onSortChange = () => {};
+
 export default function Home() {
   return (
-    <div className="flex justify-center gap-3">
-      <div></div>
+    <div>
+      <div className="flex justify-end">
+        <SortDropdown onSortChange={onSortChange} />
+      </div>
+      <div className="flex flex-col items-center">
+        <div className="grid grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-3">
+          <LicenseCard />
+          <LicenseCard />
+          <LicenseCard />
+          <LicenseCard />
+          <LicenseCard />
+          <LicenseCard />
+        </div>
+      </div>
     </div>
   );
 }
