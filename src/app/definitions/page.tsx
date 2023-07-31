@@ -1,6 +1,6 @@
 export default function Definitions() {
   return (
-    <div>
+    <div className="min-h-screen">
       <h1 className="text-3xl mb-6 font-semibold">Relevant Terms</h1>
       <div>
         <h2 className="font-bold">Use or Private Use?</h2>
