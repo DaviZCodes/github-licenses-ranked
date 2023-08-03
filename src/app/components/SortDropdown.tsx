@@ -21,8 +21,8 @@ const SortDropdown: React.FC<SortDropdownProps> = ({ onSortChange }) => {
         value={selectedOption}
         onChange={handleSortChange}
       >
-        <option value="most-strict">Most strict</option>
         <option value="least-strict">Least strict</option>
+        <option value="most-strict">Most strict</option>
         <option value="most-popular">Most popular</option>
         <option value="least-popular">Least popular</option>
       </select>

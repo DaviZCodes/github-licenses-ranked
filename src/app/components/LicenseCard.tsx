@@ -10,13 +10,15 @@ const LicenseCard: React.FC<LicenseCardProps> = ({ name, path }) => {
   return (
     <div className="border bg-custom-blue cursor-pointer">
       <Link href={`license/${path}`}>
-        <div>
+        <div className="">
           <Image
             src={
               "https://i.pinimg.com/736x/b4/06/dd/b406dd9617bde411b761778c5c99cfc2--nerd-metal.jpg"
             }
-            width={100}
-            height={100}
+            width={0}
+            height={0}
+            className="w-full h-full"
+            sizes="100vm"
             alt={`${name} image`}
           />
         </div>

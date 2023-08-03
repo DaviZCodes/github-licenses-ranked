@@ -12,7 +12,7 @@ export default function Home() {
         <SortDropdown onSortChange={onSortChange} />
       </div>
       <div className="flex flex-col items-center">
-        <div className="grid grid-cols-1 gap-3 w-full h-96 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-3 w-full h-96 md:grid-cols-2 lg:grid-cols-3 2xl:gap-5">
           {licensesObj.map((license) => (
             <LicenseCard
               key={license.name}
