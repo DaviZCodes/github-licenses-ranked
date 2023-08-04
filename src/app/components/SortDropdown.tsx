@@ -23,7 +23,7 @@ const SortDropdown: React.FC<SortDropdownProps> = ({ onSortChange }) => {
           id="sortDropdown"
           value={selectedOption}
           onChange={handleSortChange}
-          className="pl-4 pr-8 border border-gray-300 rounded-md text-base text-gray-800 bg-white appearance-none focus:outline-none focus:border-blue-500"
+          className="pl-4 pr-8 border border-gray-300 rounded-md text-base text-gray-800 bg-white appearance-none focus:outline-none focus:border-custom-blue"
         >
           <option value="least-strict">Least strict</option>
           <option value="most-strict">Most strict</option>
