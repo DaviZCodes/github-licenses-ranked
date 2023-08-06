@@ -4,9 +4,16 @@ import Link from "next/link";
 interface LicenseCardProps {
   name: string;
   path: string;
+  strictness: number;
+  popularity: number | string;
 }
 
-const LicenseCard: React.FC<LicenseCardProps> = ({ name, path }) => {
+const LicenseCard: React.FC<LicenseCardProps> = ({
+  name,
+  path,
+  strictness,
+  popularity,
+}) => {
   return (
     <div className="border bg-custom-blue cursor-pointer">
       <Link href={`license/${path}`}>
@@ -22,7 +29,10 @@ const LicenseCard: React.FC<LicenseCardProps> = ({ name, path }) => {
             alt={`${name} image`}
           />
         </div>
-        {name}
+        <div className="flex flex-col items-center">
+          <div className="font-semibold">{name}</div>
+          <div>Strictness: {strictness}</div>Popularity: {popularity}
+        </div>
       </Link>
     </div>
   );
