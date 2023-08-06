@@ -25,14 +25,14 @@ const licensesObj = [
     popularity: 1,
   },
   {
-    name: 'BSD 2-Clause \\"Simplified\\" License',
+    name: 'BSD 2-Clause "Simplified" License',
     path: "/bsd2",
     image: "",
     strictness: 11,
     popularity: 7,
   },
   {
-    name: 'BSD 3-Clause \\"New" or "Revised"\\ Licensen',
+    name: 'BSD 3-Clause "New" or "Revised" License',
     path: "/bsd3",
     image: "",
     strictness: 10,

@@ -15,9 +15,9 @@ const LicenseCard: React.FC<LicenseCardProps> = ({
   popularity,
 }) => {
   return (
-    <div className="border bg-custom-blue cursor-pointer">
+    <div className="relative border cursor-pointer rounded-lg">
       <Link href={`license/${path}`}>
-        <div className="overflow-hidden">
+        <div>
           <Image
             src={
               "https://i.pinimg.com/736x/b4/06/dd/b406dd9617bde411b761778c5c99cfc2--nerd-metal.jpg"
@@ -29,9 +29,11 @@ const LicenseCard: React.FC<LicenseCardProps> = ({
             alt={`${name} image`}
           />
         </div>
-        <div className="flex flex-col items-center">
-          <div className="font-semibold">{name}</div>
-          <div>Strictness: {strictness}</div>Popularity: {popularity}
+        <div className="absolute bottom-0 left-0 right-0 px-3 py-6 flex flex-col items-center justify-center gap-3 text-white bg-custom-blue font-semibold rounded-b-lg">
+          <div className="text-xl">{name}</div>
+          <div>
+            Strictness: {strictness} || Popularity: {popularity}
+          </div>
         </div>
       </Link>
     </div>

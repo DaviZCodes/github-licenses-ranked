@@ -12,7 +12,7 @@ export default function Home() {
         <SortDropdown onSortChange={onSortChange} />
         <div> 14 (Lowest) - 1 (Highest) </div>
       </div>
-      <div className="grid grid-cols-1 gap-2 w-full md:grid-cols-2 lg:grid-cols-3 2xl:gap-5">
+      <div className="grid grid-cols-1 gap-2 w-full md:grid-cols-2 lg:grid-cols-3 2xl:gap-3">
         {licensesObj.map((license) => (
           <LicenseCard
             key={license.name}
