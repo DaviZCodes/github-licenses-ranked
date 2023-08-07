@@ -16,7 +16,8 @@ export default function Definitions() {
           <h2 className="text-2xl font-semibold">Strictness Ranking</h2>
           <p>
             Strictness refers to how many requirements are needed to use a
-            license.
+            license. The strictness of a license is based on how many points it
+            has.
           </p>
           <p>Conditions: 15 points || Limitations: 5 points</p>
           <StrictnessRatingScale />
@@ -119,8 +120,6 @@ export default function Definitions() {
         Please note that I am not a lawyer nor a legal representative. For legal
         advice, seek a lawyer or read official documentation.
       </p>
-
-      <hr className="h-px my-6 bg-gray-200 dark:bg-gray-700" />
     </div>
   );
 }

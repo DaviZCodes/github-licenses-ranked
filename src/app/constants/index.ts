@@ -7,7 +7,7 @@ const licensesObj = [
     path: "/unlicense",
     src: "https://choosealicense.com/licenses/unlicense/",
     image:
-      "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/PD-icon-black.svg/1200px-PD-icon-black.svg.png",
     description: "",
     strictness: 14,
     strictness_points: 10,
@@ -18,7 +18,7 @@ const licensesObj = [
     path: "/cc0",
     src: "https://creativecommons.org/publicdomain/zero/1.0/",
     image:
-      "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
+      "https://arthive.net/res/media/img/oy1000/article/c63/7567093@2x.jpg",
     description: "",
     strictness: 13,
     strictness_points: 20,
@@ -62,7 +62,7 @@ const licensesObj = [
     path: "/bsl1",
     src: "https://www.boost.org/users/license.html",
     image:
-      "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
+      "https://pm1.aminoapps.com/6391/b2863b97d6c2b7388abad71c902faa1ce2d021b2_00.jpg",
     description: "",
     strictness: 9,
     strictness_points: 25,
@@ -84,7 +84,7 @@ const licensesObj = [
     path: "/epl2",
     src: "https://www.eclipse.org/legal/epl-2.0/",
     image:
-      "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
+      "https://media.cnn.com/api/v1/images/stellar/prod/230623142359-05-solar-eclipse-2017-file.jpg?c=original",
     description: "",
     strictness: 7,
     strictness_points: 55,
@@ -95,7 +95,7 @@ const licensesObj = [
     path: "/mpl2",
     src: "https://www.mozilla.org/en-US/MPL/2.0/",
     image:
-      "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
+      "https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/images/2019-10-22-22-36-41-1c7095.png",
     description: "",
     strictness: 6,
     strictness_points: 60,
