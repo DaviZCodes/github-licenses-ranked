@@ -4,6 +4,7 @@ import Link from "next/link";
 interface LicenseCardProps {
   name: string;
   path: string;
+  image: string;
   strictness: number;
   popularity: number | string;
 }
@@ -11,6 +12,7 @@ interface LicenseCardProps {
 const LicenseCard: React.FC<LicenseCardProps> = ({
   name,
   path,
+  image,
   strictness,
   popularity,
 }) => {
@@ -19,9 +21,7 @@ const LicenseCard: React.FC<LicenseCardProps> = ({
       <Link href={`license/${path}`}>
         <div>
           <Image
-            src={
-              "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9"
-            }
+            src={image}
             width={0}
             height={0}
             className="w-full h-full rounded-lg"

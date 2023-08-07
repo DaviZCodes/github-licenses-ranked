@@ -20,6 +20,7 @@ export default function Home() {
             key={license.name}
             name={license.name}
             path={license.path}
+            image={license.image}
             strictness={license.strictness}
             popularity={license.popularity!}
           />
