@@ -18,6 +18,7 @@ export default function Definitions() {
             Strictness refers to how many requirements are needed to use a
             license.
           </p>
+          <p>Conditions: 15 points || Limitations: 5 points</p>
           <StrictnessRatingScale />
         </div>
 
