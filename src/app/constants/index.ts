@@ -10,6 +10,7 @@ const licensesObj = [
       "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
     description: "",
     strictness: 14,
+    strictness_points: 10,
     popularity: 6,
   },
   {
@@ -20,6 +21,7 @@ const licensesObj = [
       "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
     description: "",
     strictness: 13,
+    strictness_points: 20,
     popularity: 12,
   },
   {
@@ -30,6 +32,7 @@ const licensesObj = [
       "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
     description: "",
     strictness: 12,
+    strictness_points: 25,
     popularity: 1,
   },
   {
@@ -40,6 +43,7 @@ const licensesObj = [
       "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
     description: "",
     strictness: 11,
+    strictness_points: 25,
     popularity: 7,
   },
   {
@@ -50,6 +54,7 @@ const licensesObj = [
       "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
     description: "",
     strictness: 10,
+    strictness_points: 25,
     popularity: 5,
   },
   {
@@ -60,6 +65,7 @@ const licensesObj = [
       "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
     description: "",
     strictness: 9,
+    strictness_points: 25,
     popularity: 13,
   },
   {
@@ -70,6 +76,7 @@ const licensesObj = [
       "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
     description: "",
     strictness: 8,
+    strictness_points: 45,
     popularity: 3,
   },
   {
@@ -80,6 +87,7 @@ const licensesObj = [
       "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
     description: "",
     strictness: 7,
+    strictness_points: 55,
     popularity: 11,
   },
   {
@@ -90,6 +98,7 @@ const licensesObj = [
       "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
     description: "",
     strictness: 6,
+    strictness_points: 60,
     popularity: 10,
   },
   {
@@ -100,6 +109,7 @@ const licensesObj = [
       "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
     description: "",
     strictness: 5,
+    strictness_points: 70,
     popularity: 2,
   },
   {
@@ -110,6 +120,7 @@ const licensesObj = [
       "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
     description: "",
     strictness: 4,
+    strictness_points: 70,
     popularity: 8,
   },
   {
@@ -120,6 +131,7 @@ const licensesObj = [
       "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
     description: "",
     strictness: 3,
+    strictness_points: 70,
     popularity: 4,
   },
   {
@@ -130,6 +142,7 @@ const licensesObj = [
       "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
     description: "",
     strictness: 2,
+    strictness_points: 85,
     popularity: 9,
   },
   {
@@ -140,6 +153,7 @@ const licensesObj = [
       "https://static.vecteezy.com/system/resources/previews/004/141/669/non_2x/no-photo-or-blank-image-icon-loading-images-or-missing-image-mark-image-not-available-or-image-coming-soon-sign-simple-nature-silhouette-in-frame-isolated-illustration-vector.jpg",
     description: "",
     strictness: 1,
+    strictness_points: 100,
     popularity: "N/A",
   },
 ];
