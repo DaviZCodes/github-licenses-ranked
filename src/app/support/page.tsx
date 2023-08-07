@@ -1,6 +1,40 @@
+import PopularityRatingScale from "../components/PopularityRatingScale";
+
 export default function Definitions() {
   return (
     <div className="min-h-screen">
+      <div>
+        <h1 className="text-3xl font-semibold">Ranking System</h1>
+        <div className="mb-6">
+          <p>
+            Licenses are ranked under two categories: strictness and popularity.
+          </p>
+        </div>
+
+        <div className="mb-6">
+          <h2 className="text-2xl font-semibold">Strictness Ranking</h2>
+          <p>
+            Strictness refers to how many requirements are needed to use a
+            license.
+          </p>
+          <ul>
+            <li>25 and under: not that strict </li>
+            <li>From 25 - 60: a bit strict </li>
+            <li>Over 60: very strict</li>
+          </ul>
+        </div>
+
+        <div className="mb-6">
+          <h2 className="text-2xl font-semibold">Popularity Ranking</h2>
+          <p>Popularity refers to how common the license is.</p>
+          <div className="flex">
+            <PopularityRatingScale />
+          </div>
+        </div>
+      </div>
+
+      <hr className="h-px my-6 bg-gray-200 dark:bg-gray-700" />
+
       <h1 className="text-3xl mb-6 font-semibold">Relevant Terms</h1>
       <div>
         <h2 className="font-bold">Use or Private Use?</h2>
@@ -87,8 +121,10 @@ export default function Definitions() {
       <br />
       <p className="text-center text-sm">
         Please note that I am not a lawyer nor a legal representative. For legal
-        advice, seek a lawyer or read official documentation.{" "}
+        advice, seek a lawyer or read official documentation.
       </p>
+
+      <hr className="h-px my-6 bg-gray-200 dark:bg-gray-700" />
     </div>
   );
 }

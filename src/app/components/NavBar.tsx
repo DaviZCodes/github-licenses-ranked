@@ -14,9 +14,9 @@ export default function NavBar() {
       <div className="flex ml-auto items-center">
         <Link
           className="text-stone-600 text-bas border-2 p-1 md:p-2 rounded-3xl border-custom-blue bg-slate-50 hover:bg-gray-200 translate-y-[-5px]"
-          href="/definitions"
+          href="/support"
         >
-          Definitions
+          Support
         </Link>
       </div>
     </div>
