@@ -18,7 +18,7 @@ const licensesObj = [
     path: "/cc0",
     src: "https://creativecommons.org/publicdomain/zero/1.0/",
     image:
-      "https://arthive.net/res/media/img/oy1000/article/c63/7567093@2x.jpg",
+      "https://c4.wallpaperflare.com/wallpaper/706/10/536/arte-pablo-picasso-pintura-wallpaper-preview.jpg",
     description: "",
     strictness: 13,
     strictness_points: 20,
