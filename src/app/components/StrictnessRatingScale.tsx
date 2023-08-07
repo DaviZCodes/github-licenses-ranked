@@ -3,7 +3,7 @@ const StrictnessRatingScale = () => {
 
   return (
     <div className="flex">
-      <div className="text-gray-600 font-bold mt-1 pr-2">Least Popular</div>
+      <div className="text-gray-600 font-bold mt-1 pr-2">Least Strict</div>
       {ratings.map((rating) => (
         <div
           key={rating}
@@ -12,7 +12,7 @@ const StrictnessRatingScale = () => {
           {rating}
         </div>
       ))}
-      <div className="text-gray-600 font-bold mt-1">Most Popular</div>
+      <div className="text-gray-600 font-bold mt-1">Most Strict</div>
     </div>
   );
 };

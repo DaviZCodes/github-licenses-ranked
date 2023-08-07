@@ -1,4 +1,5 @@
 import PopularityRatingScale from "../components/PopularityRatingScale";
+import StrictnessRatingScale from "../components/StrictnessRatingScale";
 
 export default function Definitions() {
   return (
@@ -17,19 +18,13 @@ export default function Definitions() {
             Strictness refers to how many requirements are needed to use a
             license.
           </p>
-          <ul>
-            <li>25 and under: not that strict </li>
-            <li>From 25 - 60: a bit strict </li>
-            <li>Over 60: very strict</li>
-          </ul>
+          <StrictnessRatingScale />
         </div>
 
         <div className="mb-6">
           <h2 className="text-2xl font-semibold">Popularity Ranking</h2>
           <p>Popularity refers to how common the license is.</p>
-          <div className="flex">
-            <PopularityRatingScale />
-          </div>
+          <PopularityRatingScale />
         </div>
       </div>
 
