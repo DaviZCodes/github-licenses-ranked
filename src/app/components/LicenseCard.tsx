@@ -20,11 +20,11 @@ const LicenseCard: React.FC<LicenseCardProps> = ({
         <div>
           <Image
             src={
-              "https://i.pinimg.com/736x/b4/06/dd/b406dd9617bde411b761778c5c99cfc2--nerd-metal.jpg"
+              "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9"
             }
             width={0}
             height={0}
-            className="w-full h-full"
+            className="w-full h-full rounded-lg"
             sizes="100vh"
             alt={`${name} image`}
           />
