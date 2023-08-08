@@ -9,6 +9,9 @@ const nextConfig = {
       "pm1.aminoapps.com",
       "media.cnn.com",
       "c4.wallpaperflare.com",
+      "i.etsystatic.com",
+      "i0.wp.com",
+      "images05.military.com",
     ],
   },
 };

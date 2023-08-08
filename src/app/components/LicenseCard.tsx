@@ -30,7 +30,7 @@ const LicenseCard: React.FC<LicenseCardProps> = ({
           />
         </div>
         <div className="absolute bottom-0 left-0 right-0 px-3 py-6 flex flex-col items-center justify-center gap-3 text-white bg-custom-blue font-semibold rounded-b-lg">
-          <div className="text-xl">{name}</div>
+          <div className="lg:text-lg 2xl:text-xl">{name}</div>
           <div>
             Strictness: {strictness} || Popularity: {popularity}
           </div>

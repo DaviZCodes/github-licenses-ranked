@@ -40,7 +40,7 @@ const licensesObj = [
     path: "/bsd2",
     src: "https://imagej.net/licensing/bsd#:~:text=The%20Simplified%20BSD%20",
     image:
-      "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
+      "https://i.etsystatic.com/31369353/r/il/d172c5/4103900203/il_1588xN.4103900203_f9gt.jpg",
     description: "",
     strictness: 11,
     strictness_points: 25,
@@ -51,7 +51,7 @@ const licensesObj = [
     path: "/bsd3",
     src: "https://joinup.ec.europa.eu/licence/bsd-3-clause-new-or-revised-license",
     image:
-      "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
+      "https://i0.wp.com/www.thededicatedhouse.com/wp-content/uploads/2019/07/Heres-How-to-Create-a-Modern-House-Design-for-Your-New-Home.jpg?fit=2000%2C1500&ssl=1",
     description: "",
     strictness: 10,
     strictness_points: 25,
@@ -73,7 +73,7 @@ const licensesObj = [
     path: "/al2",
     src: "https://www.apache.org/licenses/LICENSE-2.0",
     image:
-      "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
+      "https://images05.military.com/sites/default/files/media/equipment/military-aircraft/ah-64-apache-longbow/2014/02/ah-64-apache-longbow_002.jpg",
     description: "",
     strictness: 8,
     strictness_points: 45,
