@@ -19,7 +19,10 @@ export default function Definitions() {
             license. The strictness of a license is based on how many points it
             has.
           </p>
-          <p>Conditions: 15 points || Limitations: 5 points</p>
+          <p>
+            <b>Conditions</b> are 15 points each and <b>Limitations</b> are 5
+            points each.
+          </p>
           <StrictnessRatingScale />
         </div>
 
