@@ -105,8 +105,7 @@ const licensesObj = [
     name: "GNU General Public License v2.0",
     path: "/gnugpl2",
     src: "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html",
-    image:
-      "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
+    image: "https://freesvg.org/img/lemmling-Cartoon-gnu.png",
     description: "",
     strictness: 5,
     strictness_points: 70,
@@ -117,7 +116,7 @@ const licensesObj = [
     path: "/gnulgpl21",
     src: "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html",
     image:
-      "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Official_gnu.svg/640px-Official_gnu.svg.png",
     description: "",
     strictness: 4,
     strictness_points: 70,
@@ -127,8 +126,7 @@ const licensesObj = [
     name: "GNU General Public License v3.0",
     path: "/gnugpl3",
     src: "https://www.gnu.org/licenses/gpl-3.0.en.html",
-    image:
-      "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
+    image: "https://www.gnu.org/graphics/gg3po-newGnu.png",
     description: "",
     strictness: 3,
     strictness_points: 70,
@@ -138,8 +136,7 @@ const licensesObj = [
     name: "GNU Affero General Public License v3.0",
     path: "/gnuagpl3",
     src: "https://www.gnu.org/licenses/agpl-3.0.en.html",
-    image:
-      "https://drive.google.com/uc?export=view&id=1wX5wN_7V_y09lkBYXL5sIhlg9sSOz_F9",
+    image: "https://www.gnu.org/graphics/meditate.png",
     description: "",
     strictness: 2,
     strictness_points: 85,

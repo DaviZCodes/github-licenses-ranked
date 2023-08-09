@@ -12,6 +12,8 @@ const nextConfig = {
       "i.etsystatic.com",
       "i0.wp.com",
       "images05.military.com",
+      "freesvg.org",
+      "www.gnu.org",
     ],
   },
 };
