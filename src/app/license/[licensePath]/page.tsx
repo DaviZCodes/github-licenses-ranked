@@ -1,6 +1,6 @@
-import { licensesObj } from "@/app/constants";
 import Image from "next/image";
 import Link from "next/link";
+import { licensesObj } from "@/app/constants";
 
 interface LicensePageProps {
   params: {
@@ -8,19 +8,32 @@ interface LicensePageProps {
   };
 }
 
+interface ILicenseObj {
+  name: string;
+  path: string;
+  src: string;
+  image: string;
+  description: string;
+  strictness: number;
+  strictness_points: number;
+  popularity: number | string;
+}
+
 export default function SingleLicensePage({ params }: LicensePageProps) {
   const { licensePath } = params; //get the URL path
 
   const desiredPath = "/" + licensePath;
 
-  const desiredLicense = licensesObj.find(
+  //loop through the list to find the specific License Obj
+  const desiredLicense: ILicenseObj | undefined = licensesObj.find(
     (license) => license.path === desiredPath
   );
 
   if (!desiredLicense) {
     return (
       <div className="font-bold text-red-600">
-        Error 404. Failed to find License. Please try another license.
+        Error 404. Failed to find license {licensePath}. Please try another
+        license.
       </div>
     );
   }
