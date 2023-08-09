@@ -1,5 +1,6 @@
 import { licensesObj } from "@/app/constants";
 import Image from "next/image";
+import Link from "next/link";
 
 interface LicensePageProps {
   params: {
@@ -25,11 +26,11 @@ export default function SingleLicensePage({ params }: LicensePageProps) {
   }
 
   return (
-    <div className="min-h-screen text-center">
+    <div className="min-h-screen flex flex-col items-center text-center gap-3">
       <div className="text-xl sm:text-2xl font-semibold">
         {desiredLicense.name}
       </div>
-      <div className="w-96">
+      <div className="w-96 ">
         <Image
           src={desiredLicense.image}
           width={0}
@@ -45,7 +46,16 @@ export default function SingleLicensePage({ params }: LicensePageProps) {
         <p>Strictness Points: {desiredLicense.strictness_points}</p>
         <p>Popularity rank: {desiredLicense.popularity}</p>
       </div>
-      <div>Source: {desiredLicense.src}</div>
+      <div>
+        Source:{" "}
+        <Link
+          href={desiredLicense.src}
+          className=" underline text-custom-blue"
+          target="_blank"
+        >
+          {desiredLicense.src}
+        </Link>
+      </div>
     </div>
   );
 }
