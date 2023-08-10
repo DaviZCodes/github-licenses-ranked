@@ -17,8 +17,9 @@ In fact, this repository is built on an MIT license - if you don't know what an 
 
 ## Open-source
 <ul>
-  <li> Contributors are welcome </li>
+  <li> Contributors are welcome. Looking for people to help me make this website look better! </li>
   <li> Feel free to fork and work on this repository. </li>
+  <li> Reach out! </li>
 </ul>
 
 ### My research Doc:
