@@ -8,19 +8,23 @@ const onSortChange = () => {};
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <div className="flex justify-end">
+      <div className="flex flex-col items-center sm:flex sm:flex-row gap-3">
         <SortDropdown onSortChange={onSortChange} />
-      </div>
-      <div className="flex flex-col items-center">
-        <div className="grid grid-cols-1 gap-3 w-full h-96 md:grid-cols-2 lg:grid-cols-3">
-          {licensesObj.map((license) => (
-            <LicenseCard
-              key={license.name}
-              name={license.name}
-              path={license.path}
-            />
-          ))}
+        <div className="flex justify-center text-sm">
+          14 (Lowest) - 1 (Highest)
         </div>
+      </div>
+      <div className="grid grid-cols-1 gap-2 w-full md:grid-cols-2 lg:grid-cols-3 2xl:gap-3">
+        {licensesObj.map((license) => (
+          <LicenseCard
+            key={license.name}
+            name={license.name}
+            path={license.path}
+            image={license.image}
+            strictness={license.strictness}
+            popularity={license.popularity!}
+          />
+        ))}
       </div>
     </div>
   );
