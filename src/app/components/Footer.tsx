@@ -20,7 +20,7 @@ export default function Footer() {
         </a>
       </p>
       <p className="text-sm">
-        If you're interested in adding more features, please raise a pull
+        If you&apos;re interested in adding more features, please raise a pull
         request.
       </p>
     </div>
