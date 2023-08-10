@@ -14,6 +14,7 @@ interface ILicenseObj {
   src: string;
   image: string;
   description: string;
+  requirements: string;
   strictness: number;
   strictness_points: number;
   popularity: number | string;
@@ -53,14 +54,57 @@ export default function SingleLicensePage({ params }: LicensePageProps) {
           className="w-full h-full"
         />
       </div>
-      <div className="flex flex-col">
-        <p>{desiredLicense.description}</p>
-        <p>Strictness Rank: {desiredLicense.strictness}</p>
-        <p>Strictness Points: {desiredLicense.strictness_points}</p>
-        <p>Popularity rank: {desiredLicense.popularity}</p>
+      <div className="flex flex-col items-center text-center">
+        <p className="pb-3">{desiredLicense.description}</p>
+
+        <ul className="list-disc list-inside">
+          {desiredLicense.requirements
+            .split("<bulletpoint>")
+            .map((requirementGroup, index) =>
+              requirementGroup.trim() ? (
+                <li key={index}>
+                  {requirementGroup.includes("<nestedbulletpoint>") ? (
+                    <>
+                      {requirementGroup
+                        .split("<nestedbulletpoint>")
+                        .map((nestedRequirement, nestedIndex) =>
+                          nestedRequirement.trim() ? (
+                            nestedIndex === 0 ? (
+                              nestedRequirement.trim()
+                            ) : (
+                              <ul
+                                key={nestedIndex}
+                                className="list-disc list-inside nested-list"
+                              >
+                                <li>{nestedRequirement.trim()}</li>
+                              </ul>
+                            )
+                          ) : null
+                        )}
+                    </>
+                  ) : (
+                    requirementGroup.trim()
+                  )}
+                </li>
+              ) : null
+            )}
+        </ul>
+
+        <div className="flex pt-3">
+          <div className="font-semibold">Strictness Rank:</div>
+          &nbsp;{desiredLicense.strictness}
+        </div>
+        <div className="flex">
+          <div className="font-semibold">Strictness Points:</div>
+          &nbsp;{desiredLicense.strictness_points}
+        </div>
+        <div className="flex">
+          <div className="font-semibold">Popularity Rank:</div>
+          &nbsp;{desiredLicense.popularity}
+        </div>
       </div>
-      <div>
-        Source:{" "}
+      <div className="flex">
+        <p className="font-semibold">Source:&nbsp;</p>
         <Link
           href={desiredLicense.src}
           className=" underline text-custom-blue"
