@@ -1,4 +1,4 @@
-# GitHub Licenses Simplified
+# GitHub Licenses Ranked
 A project to allow developers to understand more about each complex Github license. 
 
 > Created with NextJS and Tailwind CSS
@@ -6,7 +6,7 @@ A project to allow developers to understand more about each complex Github licen
 Github licenses are tough. When I created my first repository, it took me hours to research and understand them. 
 You are unsure whether to make your project open-source or not. You want people to collaborate but you also want control over your own work.
 
-With "Coding Licenses Simplified", you can :
+With "Coding Licenses Ranked", you can :
 
 - Filter through less restrictive to more restrictive licenses
 - Filter through most popular to less popular licenses
