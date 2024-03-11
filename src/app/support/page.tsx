@@ -1,5 +1,6 @@
 import PopularityRatingScale from "../components/PopularityRatingScale";
 import StrictnessRatingScale from "../components/StrictnessRatingScale";
+import { MdSavedSearch } from "react-icons/md";
 
 export default function Definitions() {
   return (
@@ -123,6 +124,23 @@ export default function Definitions() {
         Please note that I am not a lawyer nor a legal representative. For legal
         advice, seek a lawyer or read official documentation.
       </p>
+
+      <hr className="h-px my-6 bg-gray-200 dark:bg-gray-700" />
+
+      <div>
+        <a
+          href="https://docs.google.com/document/d/1-iByvxa3zH74qIAm-iySY7CW7f-Qz2qRhf7noo-ADEw/edit?usp=sharing"
+          target="_blank"
+        >
+          <h1 className="text-3xl mb-6 font-semibold">Research Document</h1>
+          <div className="flex">
+            <MdSavedSearch size={60} color="#376cde" />
+            Here is the research I made to determine the strictness and
+            popularity of each GitHub License. I used numerous trustworthy
+            sources that back up my decisions.
+          </div>
+        </a>
+      </div>
     </div>
   );
 }
