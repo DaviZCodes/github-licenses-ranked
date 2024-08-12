@@ -8,7 +8,7 @@ const nextConfig = {
       "assets-prod.sumo.prod.webservices.mozgcp.net",
       "pm1.aminoapps.com",
       "media.cnn.com",
-      "c4.wallpaperflare.com",
+      "qph.cf2.quoracdn.net",
       "i.etsystatic.com",
       "i0.wp.com",
       "images05.military.com",

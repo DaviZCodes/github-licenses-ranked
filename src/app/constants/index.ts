@@ -20,7 +20,7 @@ const licensesObj = [
     path: "/cc0",
     src: "https://creativecommons.org/publicdomain/zero/1.0/",
     image:
-      "https://c4.wallpaperflare.com/wallpaper/706/10/536/arte-pablo-picasso-pintura-wallpaper-preview.jpg",
+      "https://qph.cf2.quoracdn.net/main-qimg-219dab33b923f7b831ef9b7cf5c94b64-lq",
     description: "A permissive public domain dedication.",
     requirements:
       "<bulletpoint>The author has waived all his or her rights to the work. <bulletpoint>Users can use, modify, distribute, and even sell the project without permission. <bulletpoint>It differentiates from The Unlicense by being a legal tool by Creative Commons with a structured and clear legal framework",
