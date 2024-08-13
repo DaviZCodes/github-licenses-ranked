@@ -28,13 +28,23 @@ export default function Definitions() {
             <b>Conditions</b> are 15 points each and <b>Limitations</b> are 5
             points each.
           </div>
-          <StrictnessRatingScale />
+          <div className="sm:hidden">
+            <br />1 being the most strict, and 14 being the least strict.
+          </div>
+          <div className="hidden sm:block">
+            <StrictnessRatingScale />
+          </div>
         </div>
 
         <div className="mb-6">
           <h2 className="text-2xl font-semibold">Popularity Ranking</h2>
           Popularity refers to how common the license is.
-          <PopularityRatingScale />
+          <div className="sm:hidden">
+            <br />1 being the most popular, and 14 being the least popular.
+          </div>
+          <div className="hidden sm:block">
+            <PopularityRatingScale />
+          </div>
         </div>
       </div>
 
@@ -155,7 +165,7 @@ export default function Definitions() {
             <MdSavedSearch size={60} color="#376cde" />
             Here is the research I made to determine the strictness and
             popularity of each GitHub License. I used numerous trustworthy
-            sources that back up my decisions.
+            sources to back up my decisions.
           </div>
         </a>
       </div>
