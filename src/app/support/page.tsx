@@ -6,30 +6,34 @@ export default function Definitions() {
   return (
     <div className="min-h-screen">
       <div>
+        <h1 className="text-3xl font-semibold">Why do we use licenses?</h1>
+        <div className="mb-6">
+          Public repositories are used to share your software to the world.
+          Without a license, your repository is copyrighted and not open-source
+          by default. For your repository to truly be open-source, you have to
+          license it so it can be used, modified, and distributed by others.
+        </div>
+
         <h1 className="text-3xl font-semibold">Ranking System</h1>
         <div className="mb-6">
-          <p>
-            Licenses are ranked under two categories: strictness and popularity.
-          </p>
+          Licenses are ranked under two categories: strictness and popularity.
         </div>
 
         <div className="mb-6">
           <h2 className="text-2xl font-semibold">Strictness Ranking</h2>
-          <p>
-            Strictness refers to how many requirements are needed to use a
-            license. The strictness of a license is based on how many points it
-            has.
-          </p>
-          <p>
+          Strictness refers to how many requirements are needed to use a
+          license. The strictness of a license is based on how many points it
+          has.
+          <div>
             <b>Conditions</b> are 15 points each and <b>Limitations</b> are 5
             points each.
-          </p>
+          </div>
           <StrictnessRatingScale />
         </div>
 
         <div className="mb-6">
           <h2 className="text-2xl font-semibold">Popularity Ranking</h2>
-          <p>Popularity refers to how common the license is.</p>
+          Popularity refers to how common the license is.
           <PopularityRatingScale />
         </div>
       </div>
@@ -77,6 +81,20 @@ export default function Definitions() {
           includes the copyright symbol ©, the year of publication, and the name
           of the copyright holder. It protects the code by informing others
           about the original author.
+        </p>
+        <br />
+        <h2 className="font-bold">Condition</h2>
+        <p>
+          A condition is a requirement that the user must comply with to use,
+          modify, or distribute the software. If the user does not comply with
+          the license conditions, the user will lose the rights granted by the
+          license.
+        </p>
+        <br />
+        <h2 className="font-bold">Limitation</h2>
+        <p>
+          A limitation specifies the constraints of the software, indicating
+          what the user cannot do with it.
         </p>
         <br />
         <h2 className="font-bold">Sublicense</h2>
